@@ -1,5 +1,5 @@
 public class Apartamento extends Imovel {
-	private double desconto = 50000;
+	private double desconto = 459000;
 
 	public double getDesconto() {
 		return desconto;
