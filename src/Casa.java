@@ -1,5 +1,5 @@
 public class Casa extends Imovel {
-	private double adicional = 150000;
+	private double adicional = 399000;
 
 	public double getAdicional() {
 		return adicional;
