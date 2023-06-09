@@ -1,5 +1,5 @@
 public class Casa extends Imovel {
-	private double adicional = 399000;
+	private double adicional = 3333333;
 
 	public double getAdicional() {
 		return adicional;
@@ -11,8 +11,7 @@ public class Casa extends Imovel {
 	public void imprimeDadosCasa() {
 		System.out.println("*****Tipo de Imovel CASA******");
 		System.out.println("Rua Pedro Krauss, 99 - Velha Central - Blumenau/SC");
-		System.out.println("Preco Total do Imovel R$ "+ (getPreco()+getAdicional()));
-		
+		System.out.println("Preco Imovel R$ "+ (getPreco()+getAdicional()));
 	}
 
 }
